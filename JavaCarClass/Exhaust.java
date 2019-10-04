@@ -2,27 +2,28 @@
 
 public class Exhaust
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Exhaust
-     */
-    public Exhaust()
+    private double size;
+    private String make;
+    
+    public Exhaust(String make, double size)
     {
-        // initialise instance variables
-        x = 0;
+        this.make = make;
+        this.size = size;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public String getMake(){
+        return make;
+    }
+    
+    public double getSize(){
+        return size;
+    }
+    
+    public void setMake(String make){
+        this.make = make;
+    }
+    
+    public void setSize(double size){
+        this.size = size;
     }
 }

@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=make\ model\ engine\ wheel\ driveTrain\ exhaust
-comment0.target=Car(java.lang.String,\ java.lang.String,\ Engine,\ Wheel,\ DriveTrain,\ Exhaust)
+comment0.params=make\ model\ engine\ wheel\ exhaust
+comment0.target=Car(java.lang.String,\ java.lang.String,\ Engine,\ Wheel,\ Exhaust)
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Car\r\n
 comment1.params=
 comment1.target=java.lang.String\ getMake()

@@ -1,8 +1,12 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Exhaust()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Exhaust\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment0.params=make\ size
+comment0.target=Exhaust(java.lang.String,\ double)
+comment1.params=
+comment1.target=java.lang.String\ getMake()
+comment2.params=
+comment2.target=double\ getSize()
+comment3.params=make
+comment3.target=void\ setMake(java.lang.String)
+comment4.params=size
+comment4.target=void\ setSize(double)
+numComments=5
