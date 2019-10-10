@@ -25,4 +25,9 @@ public class Car
     public String getModel(){
         return model;
     }
+    public String getCarInformation(){
+        return "- " + make + " " + model + " -" + "\nEngine: " + engine.getEngineCode() + "\nWheels: " + wheel.getMake() + " "
+        + wheel.getModel() + "\nTyres: " + wheel.getTyre().getMake() + " " + wheel.getTyre().getModel() 
+        + "\nExhaust: " + exhaust.getMake() + "\nBHP: " + engine.getBreakHorsepower();
+    }
 }

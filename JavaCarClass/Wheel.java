@@ -62,6 +62,9 @@ public class Wheel
     public int getSize(){
         return size;
     }
+    public Tyre getTyre(){
+        return tyre;
+    }
     
     public int getOffset(){
         return offset;
